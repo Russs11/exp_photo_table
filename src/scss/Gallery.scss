@@ -4,7 +4,7 @@
     flex-shrink: 0;
     flex-basis: 518px;
     flex-wrap: wrap;
-    max-width: 1150px;
+    max-width: 100%;
 
     justify-content: flex-start;
     align-content: flex-start;
@@ -39,10 +39,10 @@
 
     margin: 10px 0 0 10px;
 }
-.gallery-item-hold {
-    /* border: 1px solid #000; */
-    /* background: rgba(0, 0, 0, 0.0); */
-}
+// .gallery-item-hold {
+//     /* border: 1px solid #000; */
+//     /* background: rgba(0, 0, 0, 0.0); */
+// }
 .gallery-item-hide {
     opacity: 0.3;
     /* display: none; */
