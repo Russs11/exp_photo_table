@@ -1,0 +1,30 @@
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    // width: fit-content;
+    /* max-height: 760px; */
+    // max-width: 1120px;
+
+    width: 80%;
+    height: max-content;
+    max-width: max-content;
+
+    min-width: 400px;
+    // max-width: 80%;
+    // max-height: 80%;
+    // height: 80%;
+
+    position: fixed;
+    z-index: 30;
+
+    margin: auto;
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    background-color: #f8f9fa;
+
+    border: 1px solid #000;
+}
