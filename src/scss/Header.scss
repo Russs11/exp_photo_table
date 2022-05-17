@@ -2,13 +2,15 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    min-width: 1200px;
 }
+
 .header {
     display: flex;
     flex-grow: 1;
     justify-content: flex-start;
     max-width: 100%;
-    min-width: 768px;
+    min-width: 1200px;
     height: 50px;
     background-color: #343a40;
 }
