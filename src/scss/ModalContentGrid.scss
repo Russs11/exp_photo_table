@@ -125,17 +125,23 @@
 }
 
 .plus-btn:hover {
-    background-color: rgba(250, 250, 250, 0.5);
+    background-color: rgba(19, 18, 18, 0.5);
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 8px;
 }
+
 ::-webkit-scrollbar-track {
-    background-color: #a6a9ab;
+    background-color: #dbd9d9;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #343a40;
-    border-radius: 15px;
+    background-color: #404346;
+    opacity: 0.3;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    // width: 12px;
+    background-color: #595a5a;
 }
