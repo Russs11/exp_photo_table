@@ -112,7 +112,6 @@
 
 .modal-content-grid-settings-employee .modal-content-grid-settings-input {
     grid-template-columns: 1fr 52px;
-    
 }
 
 .plus-btn {
@@ -121,15 +120,25 @@
 
     margin-left: 10px;
     border: none;
-    background-image: url("../img/plus-square.svg");
+    // background-image: url("../img/plus-square.svg");
+    background-image: url("../img/plus_only-1.svg");
+    background-color: rgba(100, 148, 237, 0.5);
+    border-radius: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    cursor: pointer;
 }
 
 .plus-btn:hover {
     // background-color: rgba(19, 18, 18, 0.5);
-    background-color: rgba(108, 145, 170, 0.548);
+    // background-color: rgba(108, 145, 170, 0.548);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    /* -webkit-transform: translate(0 ,-5px); */
 }
 
 ::-webkit-scrollbar {
