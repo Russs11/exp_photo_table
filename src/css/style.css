@@ -449,7 +449,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(241, 241, 241, 0.2);
+  background-color: rgba(241, 241, 241, 0.3);
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
   -webkit-box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.4);
@@ -920,9 +920,9 @@ body {
   line-height: 1;
   border: none;
   padding: 0;
-  border-radius: 3px;
-  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
-          box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  -webkit-box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
   outline: none;
   resize: none;
   overflow: auto;
@@ -954,9 +954,9 @@ body {
   height: 40px;
   border: none;
   padding: 0;
-  border-radius: 3px;
-  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
-          box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  -webkit-box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
   outline: none;
 }
 
@@ -978,6 +978,7 @@ body {
   height: 42px;
   width: 42px;
   margin-left: 10px;
+  border: none;
   background-image: url("../img/plus-square.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -985,7 +986,7 @@ body {
 }
 
 .plus-btn:hover {
-  background-color: rgba(19, 18, 18, 0.5);
+  background-color: rgba(108, 145, 170, 0.548);
 }
 
 ::-webkit-scrollbar {
@@ -1046,19 +1047,32 @@ body {
   font-size: 24px;
   text-align: center;
   text-overflow: hidden;
+  border: none;
+  padding: 0;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
   height: 40px;
-  border: 1px solid #000;
+  border: none;
+  background-color: #fff;
   /* overflow: hidden; */
 }
 
 .modal-content-grid-settings-list-item-del-btn {
   height: 42px;
   width: 42px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
   margin-left: 10px;
   background-image: url("../img/plus-cros.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.modal-content-grid-settings-list-item-del-btn:hover {
+  background-color: rgba(253, 5, 5, 0.788);
 }
 
 .modal-content-grid-edit {

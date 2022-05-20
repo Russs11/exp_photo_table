@@ -62,8 +62,8 @@
     padding: 0;
 
     // border: 1px solid #000;
-    border-radius: 3px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
     outline: none;
     resize: none;
     overflow: auto;
@@ -94,8 +94,8 @@
     height: 40px;
     border: none;
     padding: 0;
-    border-radius: 3px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
     // border: 1px solid #000;
     // border-radius: 0;
     outline: none;
@@ -112,6 +112,7 @@
 
 .modal-content-grid-settings-employee .modal-content-grid-settings-input {
     grid-template-columns: 1fr 52px;
+    
 }
 
 .plus-btn {
@@ -119,7 +120,7 @@
     width: 42px;
 
     margin-left: 10px;
-
+    border: none;
     background-image: url("../img/plus-square.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +128,8 @@
 }
 
 .plus-btn:hover {
-    background-color: rgba(19, 18, 18, 0.5);
+    // background-color: rgba(19, 18, 18, 0.5);
+    background-color: rgba(108, 145, 170, 0.548);
 }
 
 ::-webkit-scrollbar {

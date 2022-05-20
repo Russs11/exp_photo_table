@@ -10,10 +10,14 @@
     font-size: 24px;
     text-align: center;
     text-overflow: hidden;
-
+    border: none;
+    padding: 0;
+    border-radius: 7px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
     height: 40px;
-
-    border: 1px solid #000;
+    border: none;
+    background-color: #fff;
+    // border: 1px solid #000;
 
     /* overflow: hidden; */
 }
@@ -28,3 +32,8 @@
     background-size: cover;
     background-position: center center;
 }
+.modal-content-grid-settings-list-item-del-btn:hover {
+    // background-color: rgba(250, 250, 250, 0.5);
+    background-color: rgba(253, 5, 5, 0.788);
+}
+

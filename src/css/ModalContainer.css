@@ -22,7 +22,7 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(241, 241, 241, 0.2);
+  background-color: rgba(241, 241, 241, 0.3);
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
   -webkit-box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.4);
