@@ -42,7 +42,8 @@
     display: grid;
     align-items: center;
 
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Roboto" sans-serif;
+    font-weight: normal;
     font-size: 24px;
     text-align: center;
 }
@@ -58,15 +59,19 @@
     font-size: 24px;
     text-align: center;
     line-height: 1;
-    border: none;
+    // border: none;
     padding: 0;
 
-    // border: 1px solid #000;
+    border: 1px solid rgba(179, 172, 172, 0.5);
     border-radius: 7px;
-    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+
     outline: none;
     resize: none;
     overflow: auto;
+}
+
+.modal-content-grid-settings-textarea :hover {
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.1);
 }
 
 .modal-content-grid-settings-textarea textarea::-webkit-scrollbar {
@@ -92,13 +97,17 @@
     line-height: 1;
 
     height: 40px;
-    border: none;
+    // border: none;
     padding: 0;
     border-radius: 7px;
-    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
-    // border: 1px solid #000;
+    // box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(179, 172, 172, 0.5);
     // border-radius: 0;
     outline: none;
+}
+
+.modal-content-grid-settings-input :hover {
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.1);
 }
 
 .modal-content-grid-settings-list {
@@ -128,17 +137,17 @@
     background-size: cover;
     background-position: center center;
     cursor: pointer;
+    // box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
 }
 
-.plus-btn:hover {
-    // background-color: rgba(19, 18, 18, 0.5);
-    // background-color: rgba(108, 145, 170, 0.548);
-    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
 
+
+.plus-btn:hover {
+    // box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
-    /* -webkit-transform: translate(0 ,-5px); */
+    // -webkit-transform: translate(0, -5px);
 }
 
 ::-webkit-scrollbar {
@@ -156,6 +165,7 @@
     opacity: 0.3;
     border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     // width: 12px;
     background-color: #595a5a;
