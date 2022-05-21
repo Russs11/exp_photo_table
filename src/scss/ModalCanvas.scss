@@ -32,12 +32,20 @@
       background-image: url("../img/btnHand.svg");
     }
 
+    &-hand:hover {
+      transform: scale(1.2);
+    }
+
     &-hand-active {
       background-image: url("../img/btnHandActive.svg");
     }
 
     &-arrow {
       background-image: url("../img/btnArrow.svg");
+    }
+
+    &-arrow:hover {
+      transform: scale(1.2);
     }
 
     &-arrow-active {
@@ -48,12 +56,20 @@
       background-image: url("../img/btnTextDesc.svg");
     }
 
+    &-textDesc:hover {
+      transform: scale(1.2);
+    }
+
     &-textDesc-active {
       background-image: url("../img/btnTextDescActive.svg");
     }
 
     &-imgDesc {
       background-image: url("../img/btnDescription.svg");
+    }
+
+    &-imgDesc:hover {
+      transform: scale(1.2);
     }
 
     &-imgDesc-active {

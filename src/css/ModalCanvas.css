@@ -31,12 +31,22 @@
   background-image: url("../img/btnHand.svg");
 }
 
+.modal-content-grid-edit .modal-content-grid-tools-left-hand:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .modal-content-grid-edit .modal-content-grid-tools-left-hand-active {
   background-image: url("../img/btnHandActive.svg");
 }
 
 .modal-content-grid-edit .modal-content-grid-tools-left-arrow {
   background-image: url("../img/btnArrow.svg");
+}
+
+.modal-content-grid-edit .modal-content-grid-tools-left-arrow:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .modal-content-grid-edit .modal-content-grid-tools-left-arrow-active {
@@ -47,12 +57,22 @@
   background-image: url("../img/btnTextDesc.svg");
 }
 
+.modal-content-grid-edit .modal-content-grid-tools-left-textDesc:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .modal-content-grid-edit .modal-content-grid-tools-left-textDesc-active {
   background-image: url("../img/btnTextDescActive.svg");
 }
 
 .modal-content-grid-edit .modal-content-grid-tools-left-imgDesc {
   background-image: url("../img/btnDescription.svg");
+}
+
+.modal-content-grid-edit .modal-content-grid-tools-left-imgDesc:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .modal-content-grid-edit .modal-content-grid-tools-left-imgDesc-active {
