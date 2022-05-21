@@ -4,6 +4,7 @@
   background-image: url("../img/close.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  border-radius: 3px;
 }
 
 .close-btn:hover {

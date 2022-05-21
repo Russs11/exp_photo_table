@@ -18,7 +18,8 @@
   -ms-flex-line-pack: start;
       align-content: flex-start;
   padding: 0 4px 10px 0;
-  border: 1px solid #000;
+  border: 1px solid rgba(147, 145, 145, 0.539);
+  border-radius: 5px;
   -webkit-box-shadow: -1px -1px 4px 0 rgba(0, 0, 0, 0.5), 1px 1px 4px 0 rgba(0, 0, 0, 0.5);
           box-shadow: -1px -1px 4px 0 rgba(0, 0, 0, 0.5), 1px 1px 4px 0 rgba(0, 0, 0, 0.5);
   overflow-y: auto;

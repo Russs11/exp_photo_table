@@ -153,7 +153,8 @@ body {
   -ms-flex-line-pack: start;
       align-content: flex-start;
   padding: 0 4px 10px 0;
-  border: 1px solid #000;
+  border: 1px solid rgba(147, 145, 145, 0.539);
+  border-radius: 5px;
   -webkit-box-shadow: -1px -1px 4px 0 rgba(0, 0, 0, 0.5), 1px 1px 4px 0 rgba(0, 0, 0, 0.5);
           box-shadow: -1px -1px 4px 0 rgba(0, 0, 0, 0.5), 1px 1px 4px 0 rgba(0, 0, 0, 0.5);
   overflow-y: auto;
@@ -250,7 +251,8 @@ body {
   font-family: "Roboto";
   margin-left: 10px;
   padding-bottom: 10px;
-  border: 1px solid #000;
+  border: 1px solid rgba(147, 145, 145, 0.539);
+  border-radius: 5px;
   -webkit-box-shadow: -1px -1px 4px 0 rgba(0, 0, 0, 0.5), 1px 1px 4px 0 rgba(0, 0, 0, 0.5);
           box-shadow: -1px -1px 4px 0 rgba(0, 0, 0, 0.5), 1px 1px 4px 0 rgba(0, 0, 0, 0.5);
   overflow: auto;
@@ -388,7 +390,8 @@ body {
   line-height: 1;
   text-align: center;
   margin: 10px 0 0 0;
-  border: 1px solid #000;
+  border: 1px solid rgba(126, 125, 125, 0.539);
+  border-radius: 10px;
 }
 
 .workplace-data-btn:hover {
@@ -530,6 +533,7 @@ body {
   background-image: url("../img/close.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  border-radius: 3px;
 }
 
 .close-btn:hover {
