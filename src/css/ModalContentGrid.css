@@ -56,7 +56,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto"sans-serif;
   font-weight: normal;
   font-size: 24px;
   text-align: center;
@@ -136,8 +136,8 @@
 }
 
 .plus-btn {
-  height: 42px;
-  width: 42px;
+  height: 38px;
+  width: 38px;
   margin-left: 10px;
   border: none;
   background-image: url("../img/plus_only-1.svg");
@@ -150,8 +150,17 @@
 }
 
 .plus-btn:hover {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: -2px -2px 8px 0 rgba(45, 45, 45, 0.2), 2px 2px 8px 0 rgba(45, 45, 45, 0.2);
+          box-shadow: -2px -2px 8px 0 rgba(45, 45, 45, 0.2), 2px 2px 8px 0 rgba(45, 45, 45, 0.2);
+}
+
+.plus-btn:active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 ::-webkit-scrollbar {
